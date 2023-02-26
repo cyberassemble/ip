@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.leaflet-marker-icon {
+  position: relative !important;
+  top: -0.75em !important;
+  z-index: 9998 !important;
+}
